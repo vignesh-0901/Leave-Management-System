@@ -75,7 +75,7 @@ const Signup = () => {
     <div style={{width:'90vw',margin:'10px',display:'flex',flexDirection:'column',alignItems:'center'}}>
 
     <div style={{width:'90vw',margin:'10px', display:'flex', justifyContent:'center'}}>       
-      <h1>Leave Management Portal</h1>
+      <h1 style={{color:'white'}}>Leave Management Portal</h1>
     </div>
  
     <div className="form_container" style={{marginTop:'20px'}}>
