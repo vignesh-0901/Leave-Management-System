@@ -45,11 +45,11 @@ const Topbar = () => {
       if(AuthService.logout()) navigate("/login");
   }
   return (
-    <div style={{width:'90vw',margin:'10px', height:'40px', display:'flex', justifyContent:'space-between'}}>
-        <h1>Leave Management Portal</h1>
+    <div style={{width:'100vw',marginBottom:'20px',marginTop:'20px',padding:'20px', display:'flex', justifyContent:'space-between',backgroundColor:'rgba(255, 255, 255, 0.3)'}}>
+        <h1 style={{color:'white'}}>Leave Management Portal</h1>
         <div style={{display:'flex',justifyContent:'space-between'}}>
 
-        <h2 style={{marginRight:'15px'}}>{user?.name+" - "+user?.role}</h2>
+        <h2 style={{marginRight:'15px',display:'flex', justifyContent:'space-between',alignItems:'center'}}>{user?.name+" - "+user?.role}</h2>
         <button className='btn' onClick={Logout} style={{paddingBottom:'5px',fontSize:'1.5rem'}}><BiLogOut /></button>
         </div>
     </div>
