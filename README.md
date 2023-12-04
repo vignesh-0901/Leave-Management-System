@@ -15,6 +15,33 @@
 - `React` Framework.
 - `NodeJS` Backend and Package Manager.
 
+## Screenshots:
+### Home-page:
+- #### Faculty page:
+    - Analysis of total approved leaves for each student will be shown only for the faculty.
+    - Faculty can check and approve the leave request.
+
+![Alt text](<client/src/assets/Pasted image 1.png>)
+
+- #### Student page:
+    - Student can only create leave request.
+
+![Alt text](<client/src/assets/student_home.png>)
+
+- #### Admin page:
+    - Admin can create and approve leave requests.
+    
+![Alt text](<client/src/assets/Pasted image 2.png>)
+
+### Login-page:
+![Alt text](client/src/assets/image.png)
+
+### Signup-page:
+![Alt text](<client/src/assets/Pasted image.png>)
+
+### Create Leave page:
+![Alt text](<client/src/assets/Pasted image 3.png>)
+
 ## Development
 
 ### Setup

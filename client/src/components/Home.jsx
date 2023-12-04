@@ -14,10 +14,10 @@ const Home = () => {
             if(data){
                 var list
 
-                if(user?.role=="Faculty"){
+                if(user?.role==="Faculty"){
                   list = data.filter(function(d){return d.facultyId===user.username})
                 }
-                if(user?.role=="Student"){
+                if(user?.role==="Student"){
                   list = data.filter(function(d){return d.studentId===user.username})
                 } 
                 if(user?.role==="Admin"){
@@ -70,7 +70,7 @@ const Home = () => {
                 {leaveList.length >0 && leaveList?.map(l=>{
                     return (
                         <tr key={l.id}>
-                            <td className="id">{l.studentId}</td>
+                            <td className="id"><p>{l.studentId}<br></br>{user.role==="Faculty"?` Approved leaves: ${leaveList?.filter((obj)=>obj.studentId === l.studentId && obj.status).length}`:''}</p></td>
                             <td className="id">{l.facultyId}</td>
                             <td className="desc">{l.description}</td>
                             <td className="id">{l.status?"Approved":"Not Approved"}</td>
