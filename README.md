@@ -13,7 +13,7 @@
 - `MongoDB` Database.
 - `Express` Backend
 - `React` Framework.
-- `NodeJS` Backend and Package Manager.
+- `NodeJS` Runtime.
 
 ## Screenshots:
 ### Home-page:
